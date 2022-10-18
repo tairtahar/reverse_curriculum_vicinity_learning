@@ -3,10 +3,7 @@
 
 Code for my final master thesis: Reverse Curriculum Hierarchical Recursive Learning.
 
-This repository was developed for master thesis in Artificial Intelligence. 
-It contains an hierarchical algorithms based on two levels in which the higher draws the high level 
-path with milestones (subgoals/starting points) and the low hierarchy performs the primitive steps between those 
-milestones. 
+This repository was developed for my master's thesis in Artificial Intelligence. It contains a hierarchical algorithm based on two levels in which the higher level draws the high-level path with milestones (subgoals) and the low hierarchy performs the primitive steps in the sub-trajectories between those milestones.
 
 The algorithm is trained and tested in Simple Minigrid environemt: Empty Room 15x15 and FourRooms 15x15. 
 
@@ -29,6 +26,10 @@ The files default checkpoint_name is the algorithms that were presented in the t
 In addition, in the checkpoint directory, it is possible to find the checkpoint for empty room. 
 
 ~
+## Trained RCVL agent
+<p align="center">
+  <img src="figures/SimpleFourRoomsEnv15x15.gif" width="360" alt="Simple-MiniGrid-FourRooms-15x15-v0 learned policy">
+</p>
 
 
 For rendering the test, add `--render` to the configuration file.
@@ -38,7 +39,7 @@ For rendering the test, add `--render` to the configuration file.
 > @phdthesis{Tahar Tair,
     title={Reverse Curriculum Vicinity Learning},
     url={https://upcommons.upc.edu/handle/2117/371021},
-   school={UPC, Computer Science Faculty},
+    school={UPC, Computer Science Faculty},
     author={Tahar, Tair},
     year={2022},
     month={July}
