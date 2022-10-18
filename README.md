@@ -34,14 +34,15 @@ In addition, in the checkpoint directory, it is possible to find the checkpoint 
 For rendering the test, add `--render` to the configuration file.
 
 ## Citation
+```bibtex
 > @phdthesis{Tahar Tair,
-    title={Reverse Curriculum Vicinity Learning},
-    url={https://upcommons.upc.edu/handle/2117/371021},
-    abstractNote={}
-   school={UPC, Computer Science Faculty},
-    author={Tahar, Tair},
-    year={2022},
-    month={July}
+    title={Reverse Curriculum Vicinity Learning},\
+    url={https://upcommons.upc.edu/handle/2117/371021},\
+   school={UPC, Computer Science Faculty},\
+    author={Tahar, Tair},\
+    year={2022},\
+    month={July}\
 }
+```
 
 
