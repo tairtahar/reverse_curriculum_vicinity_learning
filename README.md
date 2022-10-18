@@ -1,7 +1,6 @@
 ![python](https://img.shields.io/badge/Python-3.7-orange) ![torch](https://img.shields.io/badge/pytorch-1.7.1-brightgreen) ![gym](https://img.shields.io/badge/gym-0.19-red) ![numpy](https://img.shields.io/badge/numpy-1.19.2-blue) 
 # RCVL: Reverse Curriculum Hierarchical Vicinity Learning.
 
-Code for my final master thesis: Reverse Curriculum Hierarchical Recursive Learning.
 
 This repository was developed for my master's thesis in Artificial Intelligence. It contains a hierarchical algorithm based on two levels in which the higher level draws the high-level path with milestones (subgoals) and the low hierarchy performs the primitive steps in the sub-trajectories between those milestones.
 
