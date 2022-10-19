@@ -25,7 +25,7 @@ The files default checkpoint_name is the algorithms that were presented in the t
 In addition, in the checkpoint directory, it is possible to find the checkpoint for empty room. 
 
 ~
-## Trained RCVL agent
+## Trained RCVL policy
 <p align="center">
   <img src="figures/SimpleFourRoomsEnv15x15.gif" width="360" alt="Simple-MiniGrid-FourRooms-15x15-v0 learned policy">
 </p>
