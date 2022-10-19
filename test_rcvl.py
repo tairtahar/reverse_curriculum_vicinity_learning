@@ -1,7 +1,7 @@
 import os
 import argparse
 import gym
-import gym_simple_minigrid  # just to register envs
+import gym_simple_minigrid
 import numpy as np
 from rcvl.agent import Sample_goal
 

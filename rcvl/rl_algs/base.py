@@ -1,5 +1,8 @@
 import torch.nn as nn
 
+# https://github.com/rafelps/learning-recursive-goal-proposal
+# Note: Not the author's implementation
+
 
 class FFNetwork(nn.Module):
     """

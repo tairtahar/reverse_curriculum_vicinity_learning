@@ -7,6 +7,9 @@ from gym_simple_minigrid.minigrid import SimpleMiniGridEnv
 from .rl_algs.ddqn import DDQNStateGoal
 from .utils.utils import ReplayBuffer, HERTransitionCreator
 
+# https://github.com/rafelps/learning-recursive-goal-proposal
+# Note: Not the author's implementation
+
 
 class LowPolicy:
     def __init__(self, env: SimpleMiniGridEnv, gamma: float = 1., tau: float = 0.005, br_size: int = 5e5):

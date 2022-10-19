@@ -89,8 +89,8 @@ class HighPolicy:
             for j, (_, next_state_3) in enumerate(self.episode_runs[i + 1:], i + 1):
                 for k, (_, next_state_2) in enumerate(self.episode_runs[i:j], i):
                     self.replay_buffer.add(state_1,  # state
-                                           next_state_2,  # action <-> proposed goal
-                                           -(j - i + 1),  # reward <-> - N runs
+                                           next_state_2,  # action (proposed goal)
+                                           -(j - i + 1),  # reward (# runs)
                                            next_state_1,  # next_state
                                            next_state_3,  # goal
                                            True)
